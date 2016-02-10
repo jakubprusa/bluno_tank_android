@@ -1,0 +1,3 @@
+ALTER TABLE CallLog ADD COLUMN record_seen INTEGER;
+ALTER TABLE CallLog ADD COLUMN has_video_record INTEGER;
+ALTER TABLE CallLog ADD COLUMN created_by_gpio INTEGER;
